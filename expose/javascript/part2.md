@@ -33,3 +33,4 @@ E. False because true maps to 1 which is not equal to 2 <br>
 F. True because the 2 is converted to Boolean as true which is then equal to true even without type conversion
 15. == checks equality with type conversion, while === checks equality without type conversion.
 17. The result would be the array [2, 4, 6]. First the array and function are passed in and a new array is created. Then the for loop iterates through the array that was passed in. In each iteration, it calls the function passed in on each element of the array then adds the result to the new array. In this case each element of the array is doubled by the function. Lastly, the new array is returned.
+19. 1 is printed, then after a second, 2 is printed, then immediately 3 is printed, then 4 is printed.
